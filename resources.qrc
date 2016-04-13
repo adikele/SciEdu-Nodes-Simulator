@@ -1,0 +1,17 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>icons/images/exercise1.png</file>
+	<file>icons/images/Figure1.png</file>
+	<file>icons/images/Figure2.png</file>
+	<file>icons/images/Figure3.png</file>
+	<file>icons/images/Figure4.png</file>
+	<file>icons/images/Figure5.png</file>
+    <file>icons/back-icon.png</file> 
+	<file>icons/forward-icon.png</file>
+    <file>icons/oscilloscope2.png</file>
+	<file>icons/voltmeter.png</file>
+    <file>icons/spectrum_analyzer.png</file> 
+	<file>icons/question.png</file>
+	<file>icons/reset.png</file>
+</qresource>
+</RCC>

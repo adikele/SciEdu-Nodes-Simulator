@@ -1,0 +1,41 @@
+pos: (0.0, 0.0)
+connects: [('FFT.0', 'Out', 'Oscilloscope 2', 'In'), ('Input', 'sigOut', 'FFT.0', 'In'), ('Input', 'sigOut', 'Oscilloscope 1', 'In')]
+terminals:
+    sigOut2:
+        multi: False
+        io: 'in'
+        renamable: False
+        multiable: False
+        removable: False
+        optional: False
+    sigOut:
+        multi: False
+        io: 'in'
+        renamable: False
+        multiable: False
+        removable: False
+        optional: False
+bypass: False
+inputNode:
+    terminals:
+        sigOut2:
+            multi: False
+            io: 'out'
+            renamable: False
+            multiable: False
+            removable: False
+            optional: False
+        sigOut:
+            multi: False
+            io: 'out'
+            renamable: False
+            multiable: False
+            removable: False
+            optional: False
+    pos: (-182.2505214519914, 2.9318655865446885)
+    bypass: False
+nodes: [{'state': {'pos': (105.13076477645319, -42.82862106237863), 'bypass': False}, 'pos': (105.13076477645319, -42.82862106237863), 'class': 'PlotWidget', 'name': 'Oscilloscope 2'}, {'state': {'pos': (100.0, 100.0), 'bypass': False}, 'pos': (100.0, 100.0), 'class': 'PlotWidget', 'name': 'Oscilloscope 1'}, {'state': {'pos': (-48.76257558475547, -43.47023117041131), 'bypass': False, 'ctrl': {}}, 'pos': (-48.76257558475547, -43.47023117041131), 'class': 'FFT', 'name': 'FFT.0'}]
+outputNode:
+    terminals:
+    pos: (326.38679027890237, -5.863731173089377)
+    bypass: False
